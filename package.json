@@ -1,0 +1,32 @@
+{
+  "name": "axios-http-middleware",
+  "version": "1.0.1",
+  "description": "descript axios request with middleware",
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && tsc",
+    "prepublishOnly": "git push && npm version patch && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangerwei/axios-http-middleware.git"
+  },
+  "keywords": [
+    "axios",
+    "http",
+    "koa",
+    "axios-middleware"
+  ],
+  "author": "tangerwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangerwei/axios-http-middleware/issues"
+  },
+  "homepage": "https://github.com/tangerwei/axios-http-middleware#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "md5": "^2.3.0"
+  }
+}
