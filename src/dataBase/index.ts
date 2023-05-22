@@ -1,4 +1,4 @@
-import md5 from "md5";
+import * as md5 from "md5";
 
 function generateKey(origin:string){
     return md5(origin)
